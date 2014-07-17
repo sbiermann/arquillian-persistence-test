@@ -13,9 +13,6 @@ import org.junit.runner.RunWith;
 @RunWith(Arquillian.class)
 public class ParentTest {
 
-
-
-
     @Deployment
     public static WebArchive createDeployment() {
         WebArchive war = PersistenceDeployments.createJPADeployment();
