@@ -1,0 +1,8 @@
+parent:
+  - id: 1
+    name: testparent
+
+child:
+  - id: 1
+    name: testchild
+    parent_id: 1
