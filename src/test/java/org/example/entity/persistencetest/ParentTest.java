@@ -14,6 +14,8 @@ import org.junit.runner.RunWith;
 public class ParentTest {
 
 
+
+
     @Deployment
     public static WebArchive createDeployment() {
         WebArchive war = PersistenceDeployments.createJPADeployment();
