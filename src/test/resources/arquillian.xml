@@ -17,8 +17,10 @@
             <property name="serverConfig">standalone.xml</property>
         </configuration>
     </container>
-   <extension qualifier="persistence-dbunit">
+    <extension qualifier="persistence-dbunit">
         <property name="datatypeFactory">org.dbunit.ext.h2.H2DataTypeFactory</property>
+        <property name="schema">public</property>
+        <property name="filterTables">true</property>
     </extension>
     <extension qualifier="persistence">
        <property name="defaultDataSource">java:jboss/datasources/ExampleDS</property>
